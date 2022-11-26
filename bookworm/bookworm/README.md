@@ -3,7 +3,8 @@ Bookworm
 Programado por:Oriana Maria Cancino Ricardez
 
 
-Al descargar la aplicación en consola solo debe ponerse la instrucción de "yarn install" segudo de "yarn add react-router-dom@^5.3.0"
+Al descargar la aplicación en consola solo debe ponerse la instrucción de "yarn install" segui
+do de "yarn add react-router-dom@^5.3.0"
 
 
 
