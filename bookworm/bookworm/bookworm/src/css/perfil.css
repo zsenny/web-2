@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.ContenedorPerfil {
+    width: 70vw;
+    height: max-content;
+    margin: 2vw auto;
+    background-color: brown;
+}
+
+.imagen {
+    width: max-content;
+}
+
+.DatosPerfil {
+    width: 50vw;
+    height: max-content;
+    margin: 0 0 0 2vw;
+}
+
+.desc{
+    text-align: justify;
+}
+
+@media only screen and (max-width: 991px) {
+    .centrar {
+        width: 62vw;
+        margin: auto;
+        padding: 2vw;
+        background-color: burlywood;
+    }
+    .imagen {
+        margin: auto;
+    }
+    .imgPerfilPerfil {
+        width: 20vw;
+        height: 20vw;
+        border-radius:10vw;
+    }
+    .MisHistorias{
+        margin-bottom: 2vw;
+    }
+    .DatosPerfil{
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .centrar {
+        width: max-content;
+        margin: auto;
+        padding: 2vw;
+        background-color: burlywood;
+    }
+    .imgPerfilPerfil {
+        width: 13vw;
+        height: 13vw;
+        border-radius: 8vw;
+    }
+    .imagen {
+        display: flex;
+        float: left;
+        top: 0;
+    }
+    
+    .DatosPerfil {
+        float: right;
+    }
+    .MisHistorias{
+        margin-bottom: 1.5vw;
+    }
+}

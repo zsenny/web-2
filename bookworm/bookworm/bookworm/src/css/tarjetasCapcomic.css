@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+@media only screen and (max-width: 991px) {
+    .cardModComic{
+        width: 60vw;
+        background-color: #160526;
+        padding: 1vw;
+        border-radius: 10px;
+        margin: 0px 0px 4px 0px;
+    }
+    
+    .IMGCardComic{
+        width: 10vw;
+        height: 10vw;
+        float: left;
+        margin: 0px;
+    }
+    .ContentCardComic{
+        width: 48.5vw;       
+        height: 10vw; 
+        padding-left: 1vw;
+        background-color:#240940;
+        float: right;
+        display: flex;
+        align-items: center;
+    }
+    .TituloCap{
+        font-weight: bold;
+        font-size: 2vw;
+        color:rgb(233, 233, 233);
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .cardModComic{
+        width: 35vw;
+        background-color: #160526;
+        padding: 0.5vw;
+        border-radius: 10px;
+        margin: 0px 5px 0px 0px;
+    }
+    
+    .IMGCardComic{
+        width: 5vw;
+        height: 5vw;
+        float: left;
+        margin: 0px;
+    }
+    .ContentCardComic{
+        display: flex;
+        align-items: center;
+        width: 29.5vw;
+        padding-left: 0.5vw;
+        height: 5vw;
+        background-color:#240940;
+        float: right;
+    }
+    .TituloCap{
+        margin: 0vw 1vw;
+        font-weight: bold;
+        font-size: 1.25vw;
+        color:rgb(233, 233, 233);
+    }
+}
+

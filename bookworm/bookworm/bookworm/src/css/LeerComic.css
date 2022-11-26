@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+.ContenedorLeerComic {
+    background-color: rgba(0, 0, 0, 0.527);
+}
+
+.ImagenesPagComic {
+    width: max-content;
+    margin: auto;
+}
+
+.imComic {
+    width: 40vw;
+    height: 48vw;
+    margin: auto;
+    display: block;
+}
+
+.Separacion {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    width: 100vw;
+    height: max-content;
+    padding: 2px;
+}
+
+#ReportarCap {
+    display: inline-block;
+}
+
+.Aviso {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 2vw;
+    display: inline-block;
+    color: white;
+}
+
+.Comentarios, .ComentariosReportados {
+    background-image: linear-gradient(to top, #ebbba7 0%, #cfc7f8 100%);
+}
+
+.ComentariosModerador {
+    background-image: linear-gradient(to top, #ebbba7 0%, #cfc7f8 100%);
+}
+
+.EscribirComentario {
+    width: max-content;
+    margin: auto;
+    padding: 10px;
+}
+
+.BtnEnviarComentario {
+    width: max-content;
+    margin: auto;
+}
+
+.Comentario {
+    width: 40vw;
+    margin: auto;
+    padding: 5px;
+    border-top: 2px solid black;
+}
+
+.NombrePersonaComentarios, .TituloComicReporteComentario, .CapituloComicReporteComentario, .NombrePersonaComentariosReporte {
+    font-family: 'Poppins', sans-serif;
+}
+
+.TextoPersonaComentario, .ReporteComentario {
+    font-family: 'Open Sans', sans-serif;
+}
+
+@media only screen and (max-width: 991px) {
+    .ComentariosModerador {
+        transform: translate(0, -13vw);
+        padding-bottom: 10vw;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .ComentariosModerador {
+        transform: translate(0, -12vw);
+        padding-bottom: 5vw;
+    }
+    .TituloComicReporteComentario {
+        font-size: 1.6vw;
+        margin: 0%;
+    }
+    .CapituloComicReporteComentario {
+        font-size: 1.3vw;
+        font-weight: bolder;
+        margin: 0%;
+
+    }
+    .NombrePersonaComentariosReporte{
+        margin: 0%;
+        font-size: 1.2vw;
+    }
+    .TextoPersonaComentario{
+        margin: 0%;
+    }
+    .ReporteComentario{
+        border: black dashed 2px;
+        padding: 5px;
+    }
+}

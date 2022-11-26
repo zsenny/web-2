@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+.text-ag {
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(214, 214, 214);
+    margin: 0%;
+}
+
+.imgPortadaComic {
+    width: 100vw;
+    height: 23vw;
+    z-index: 1;
+}
+
+.ContenedorInformacionComic {
+    background-color: rgb(41, 40, 41);
+    margin: 0 auto;
+}
+.IzquierdoComicRevisiones{
+    background-color: rgb(41, 40, 41);
+}
+
+.IzquierdoComic {
+    background-color: rgb(41, 40, 41);
+}
+
+.DerechoComic {
+    background-color: rgb(41, 40, 41);
+}
+
+.ImagenComic {
+    width: max-content;
+    margin: auto;
+    z-index: 5;
+}
+
+.MostrarCalif {
+    background-color: rgba(255, 255, 255, 0.699);
+    z-index: 30;
+}
+
+#corazon {
+    float: left;
+}
+
+#btnEditar, #btnCrearCap{
+    color:azure;
+    background-color:  #3b0a58;
+}
+
+#irComic,#eliminarRep,#EsconderCom,#aprobar,#irAcom,#mostrarCom{
+    color: white;
+}
+
+#botonesCreador{
+    text-align: right;
+    margin-left: 62%;
+}
+
+.Calificacion {
+    float: right;
+    margin: 0%;
+}
+
+.Rating {
+    width: max-content;
+    margin: auto;
+}
+
+.Generos {
+    width: 70vw;
+}
+
+.Genero {
+    display: inline-block;
+    background-color: #420F73;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.Division {
+    width: 100vw;
+    height: 2vw;
+    background-color: black;
+}
+
+.Capitulos {
+    margin: auto;
+    box-shadow: -2px 15px 34px 3px rgba(0, 0, 0, 0.6);
+    -webkit-box-shadow: -2px 15px 34px 3px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: -2px 15px 34px 3px rgba(0, 0, 0, 0.6);
+}
+
+.ReporteComic{
+    color: black;
+}
+
+@media only screen and (max-width: 991px) {
+    .text-ag {
+        text-align: center;
+        margin: 5px;
+    }
+    .ContenedorInformacionComic {
+        width: 70vw;
+        margin: 0 auto;
+        z-index: 15;
+        transform: translate(0, -13vw);
+    }
+    .Division {
+        transform: translate(0, -13vw);
+    }
+    .IzquierdoComic {
+        margin: 0;
+        width: 70vw;
+        margin: 0 auto;
+    }
+    .DerechoComic {
+        width: 60vw;
+        margin: 0 auto;
+    }
+    .imgPerfilComic {
+        width: 25vw;
+        height: 25vw;
+    }
+    .MostrarCalif {
+        width: max-content;
+        padding: 0.5vw;
+        margin: auto;
+        transform: translate(10vw, 3.5vw);
+    }
+    .Capitulos {
+        padding: 2vw;
+        width: 66vw;
+        transform: translate(0, -13vw);
+        -webkit-transform: translate(0, -13vw);
+    }
+    .IzquierdoComicRevisiones{
+        
+        padding-top: 3vw;
+        margin: 0;
+        width: 70vw;
+        margin: 0 auto;
+    }
+    .NotaReporteComic{
+        transform: translate(0, -13vw);
+        width: 70vw;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .IzquierdoComicRevisiones{
+        padding-top: 2vw;
+        margin: 0;
+        width: 20vw;
+        float: left;
+    }
+    .text-ag {
+        margin: 5px;
+    }
+    .ContenedorInformacionComic {
+        width: 75vw;
+        z-index: 15;
+        transform: translate(0, -12vw);
+    }
+    .Division {
+        transform: translate(0, -12vw);
+    }
+    .Capitulos {
+        transform: translate(0, -12vw);
+        padding: 2vw;
+        width: 71vw;
+    }
+    .IzquierdoComic {
+        margin: 0;
+        width: 20vw;
+        float: left;
+    }
+    .DerechoComic {
+        padding: 2vw;
+        width: 50vw;
+        float: right;
+    }
+    .imgPerfilComic {
+        width: 15vw;
+        height: 15vw;
+    }
+    .MostrarCalif {
+        width: max-content;
+        padding: 0.5vw;
+        margin: auto;
+        transform: translate(5vw, 2.8vw);
+    }
+    .NotaReporteComic{
+        width: 70vw;
+        margin: auto;
+        transform: translate(0, -12vw);
+    }
+}

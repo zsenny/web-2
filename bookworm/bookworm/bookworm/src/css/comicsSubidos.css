@@ -1,0 +1,20 @@
+.contPrinc{
+    margin: auto;
+    width: max-content;
+}
+
+.imagenComic{
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 1%;
+    border-radius: 4px;
+}
+
+.contenedorPrincipalTarjetas{
+    display: flex;
+    color: rgb(191, 221, 220);
+}
+
+.numCaps{
+   display: right;
+}
