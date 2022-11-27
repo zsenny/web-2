@@ -188,7 +188,7 @@ export default function PrimarySearchAppBar(props) {
             sx={{ display: { xs: 'none', sm: 'block' } }}
             
           >
-            Tell a tale
+            Bookworm
           </Typography>
           <Search>
             <SearchIconWrapper>
