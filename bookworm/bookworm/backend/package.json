@@ -9,7 +9,7 @@
     "start-build": "",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Jaime Antonio",
+  "author": "Oriana",
   "license": "ISC",
   "dependencies": {
     "@emotion/react": "^11.5.0",
