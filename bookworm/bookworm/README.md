@@ -1,6 +1,6 @@
 Bookworm
 
-Programado por: Oriana Maria Cancino Ricardez 1644806, Luis Carlos Segura Juárez 1664499, CArlos Daniell
+Programado por: Oriana Maria Cancino Ricardez 1644806, Luis Carlos Segura Juárez 1664499, Carlos Daniel Robles García 1662589
 
 
 Al descargar la aplicación en consola solo debe ponerse la instrucción de "yarn install" segui
